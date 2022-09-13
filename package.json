@@ -1,0 +1,23 @@
+{
+  "name": "expense",
+  "version": "1.0.0",
+  "description": "backend for expense tracker",
+  "main": "expenses.js",
+  "scripts": {
+    "start": "node expense.js",
+    "server": "nodemon expense.js"
+  },
+  "author": "jephthahsenu",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.19",
+    "prettier": "2.7.1"
+  }
+}
